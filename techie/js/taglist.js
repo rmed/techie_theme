@@ -7,6 +7,7 @@ if (element.className == 'tag_button')
         list.style.height = '100px';
         list.style.overflow = 'vertical';
         list.style.paddingTop = '1.5em';
+        list.style.paddingBottom = '1.5em';
     }
 else
     {
@@ -15,5 +16,6 @@ else
         list.style.height = '0';
         list.style.overflow = 'hidden';
         list.style.paddingTop = '0';
+        list.style.paddingBottom = '0';
     }
 }
