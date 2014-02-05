@@ -1,11 +1,22 @@
 <?php
 
-echo '<article class="post">';
+// Post template
+include('post.bit');
 
-	include('includes/post_head.bit');
-	include('includes/post_body.bit');
-	include('includes/post_foot.bit');
+// If comments are allowed
+if(Post::allow_comments())
+{
+    // Separator
+    echo '<div id="separator"></div>';
 
-echo '</article>';
+    // Disqus comments
+    include('disqus_comments.bit');
+
+    // Facebook comments
+    include('facebook_comments.bit');
+
+    // Nibbleblog comments
+    include('nibbleblog_comments.bit');
+}
 
 ?>

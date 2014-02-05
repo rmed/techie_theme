@@ -8,12 +8,12 @@
         <div class="post_bar">
             <div class="date"><?php echo Post::published() ?></div>
 
-        <!-- Share buttons -->
-        <?php include('social.bit'); ?>
+            <!-- Share buttons -->
+            <?php include('social.bit'); ?>
         </div>
     </header>
 
-    <div class="post-content">
+    <div class="post_content">
         <?php echo Post::content() ?>
     </div>
 
