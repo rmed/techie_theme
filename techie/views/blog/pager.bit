@@ -6,7 +6,7 @@ echo '<section id="pager">';
 
     echo Pager::prev_link();
 
-    echo Pager::mext_link();
+    echo Pager::next_link();
 
 echo '</section>';
 }

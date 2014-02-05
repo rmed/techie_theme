@@ -19,7 +19,7 @@
 
     <footer class="post">
         <span>
-            <a href="<?php echo Post::permalink() ?>"><?php echo $Language->get('permalink') ?></a>
+            <a href="<?php echo Post::permalink() ?>"><?php echo ($post['read_more'])?$Language->get('read more'):$Language->get('permalink') ?></a>
         </span>
         <span class="comment-count">
             <?php echo Post::comment_count_link() ?>
