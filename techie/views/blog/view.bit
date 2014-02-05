@@ -3,24 +3,25 @@
 // There are no posts
 if(empty($posts))
 {
-        echo '<p>'.$Language->get('THERE_ARE_NO_POSTS').'</p>';
+    echo '<p>'.$Language->get('there are no posts').'</p>';
 }
 else
 {
-    // Print each post
-    foreach($posts as $post)
-    {
-        echo '<article class="post">';
+	// Disqus comments
+	include('disqus_comments.bit');
 
-            include('includes/post_head.bit');
-            include('includes/post_body.bit');
-            include('includes/post_foot.bit');
+	// Facebook comments
+	include('facebook_comments.bit');
 
-        echo '</article>';
-    }
+	// Print each post
+	foreach($posts as $post)
+	{
+		// Include the post template for each post
+		include('post.bit');
+	}
 }
 
 // Pager
-include('includes/pager.bit');
+include('pager.bit');
 
 ?>
