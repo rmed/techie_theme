@@ -216,19 +216,6 @@ a:hover {
     width: 50%;
 }
 
-/* ---------------------- */
-/*     404 ERROR PAGE     */
-/* ---------------------- */
-div.page_404 {
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px #333333;
-    font-size: 1.5em;
-    margin-bottom: 2.5em;
-    overflow: hidden;
-    padding: 1.250em 1.875em;
-}
-
 /* ------------- */
 /*     PAGER     */
 /* ------------- */
@@ -250,12 +237,12 @@ div.page_404 {
     opacity: 1;
 }
 
-#pager  a.newer {
+#pager  a.next-page {
     float: right;
     padding: 0 5px;
 }
 
-#pager  a.older {
+#pager  a.prev-page {
     float: left;
     padding: 0 5px;
 }
