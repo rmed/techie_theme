@@ -5,9 +5,9 @@ Techie is a dark and modern theme inspired by Firefox OS' Gaia interface.
 
 *NOTE*: This theme has certain incompatibilities with older browsers, in particular with IE.
 
-Status: **v0.1** (in development)
+Status: **v0.2** (in development)
 
-Compatible with Nibbleblog **3.7.2**
+Compatible with Nibbleblog **4.0**
 
 ## Features
 
