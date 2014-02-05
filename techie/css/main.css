@@ -83,8 +83,8 @@ a:hover {
     bottom: 0;
     display: block;
     left: 0;
-    max-height: 100%;
-    max-width: 30%;
+    min-height: 100%;
+    min-width: 30%;
     overflow: hidden;
     overflow-y: auto;
     position: fixed;
@@ -94,6 +94,7 @@ a:hover {
         -webkit-transform: translateX(-100%);
     transition: all 500ms ease 0s;
         -webkit-transition: all 500ms ease 0s;
+    z-index: 10;
 }
 
 #sidebar  h2 {
