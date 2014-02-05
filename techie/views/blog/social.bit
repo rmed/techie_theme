@@ -1,6 +1,6 @@
 <?php if( $theme['share_buttons'] )
 {
-$postlink = rawurlencode(Blog::url().Post::permalink());
+$postlink = Url::post($post,true);
 echo '<div class="social">';
 
     echo '<a class="share_facebook" title="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?'.$postlink.'" target="_blank"></a>';

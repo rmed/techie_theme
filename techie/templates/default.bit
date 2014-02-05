@@ -49,9 +49,6 @@
         ?>
     </header>
 
- 
-</script>
-
     <!-- SIDEBAR -->
     <?php if(!empty($plugins))
     {

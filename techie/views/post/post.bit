@@ -1,4 +1,4 @@
-<article class="post">
+<!-- <article class="post"> -->
 
     <header class="post">
 		<h1 class="title">
@@ -17,5 +17,5 @@
 		<?php echo Post::content(true) ?>
 	</div>
 
-</article>
+<!-- </article> -->
     

@@ -1,5 +1,7 @@
 <?php
 
+echo '<article class="post">';
+
 // Post template
 include('post.bit');
 
@@ -18,5 +20,7 @@ if(Post::allow_comments())
     // Nibbleblog comments
     include('nibbleblog_comments.bit');
 }
+
+echo '</article>';
 
 ?>
