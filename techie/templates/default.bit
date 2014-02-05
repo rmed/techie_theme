@@ -7,7 +7,7 @@
     echo Blog::meta_tags();
 
     // Include CSS
-    echo Blog::css(array('normalize.css', 'main.css', 'plugins.css', 'post.css', 'rainbow_github.css'));
+    echo Blog::css(array('main.css', 'normalize.css', 'page.css', 'plugins.css', 'post.css', 'rainbow_github.css'));
 
     // Include Jquery
     echo Blog::jquery();

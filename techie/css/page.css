@@ -13,11 +13,77 @@ article.page {
 /* ----------------- */
 /*    PAGE HEADER    */
 /* ----------------- */
+article.page  header  div.page_bar {
+    border-top: 2px solid #ff600a;
+    margin-bottom: 1.563em;
+    overflow: hidden;
+}
+
 article.page  header  h1.page_title {
-    border-bottom: 2px solid #ff600a;
     color: #404040;
     font-size: 2em;
+    font-weight: normal;
     margin: 0 0 0 5px;
+}
+
+/* ---------------------- */
+/*     SOCIAL BUTTONS     */
+/* ---------------------- */
+article.page  header  div.social {
+    float: right;
+    margin-right: 0.625em;
+    overflow: hidden;
+}
+
+article.page  header  div.social  a {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 26px 26px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+    height: 26px;
+    padding: 0.313em;
+    transition: all 200ms ease 0s;
+        -webkit-transition: all 200ms ease 0s;
+    vertical-align: top;
+    width: 26px;
+}
+
+article.page  header  div.social  a:hover {
+    background-color: #ff6d1e;
+}
+
+article.page  header  div.social  a.share_facebook {
+    background-image: url("img/social/facebook_b.png");
+}
+
+article.page  header  div.social  a.share_facebook:hover {
+    background-image: url("img/social/facebook_w.png");
+}
+
+article.page header  div.social  a.share_plus {
+    background-image: url("img/social/gplus_b.png");
+}
+
+article.page header  div.social  a.share_plus:hover {
+    background-image: url("img/social/gplus_w.png");
+}
+
+article.page header  div.social  a.share_twitter {
+    background-image: url("img/social/twitter_b.png");
+}
+
+article.page header  div.social  a.share_twitter:hover {
+    background-image: url("img/social/twitter_w.png");
+}
+
+article.page  header  div.social  a.share_email {
+    background-image: url("img/social/mail_b.png");
+}
+
+article.page  header  div.social  a.share_email:hover {
+    background-image: url("img/social/mail_w.png");
 }
 
 /* ------------------ */
@@ -44,6 +110,7 @@ article.page  div.page_content  .nb-console {
 }
 
 article.page  div.page_content  img:not(.captcha) {
+    height: auto;
     max-width:100%;
 }
 

@@ -1,6 +1,6 @@
 <article class="post">
 
-    <header class="post">
+    <header>
         <h1 class="title">
             <a href="<?php echo Post::permalink() ?>"><?php echo Post::title() ?></a>
         </h1>
