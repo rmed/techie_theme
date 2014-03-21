@@ -154,9 +154,9 @@ article.page  div.page_content  div.video_embed {
     overflow: hidden;
 }
 
-article.page  div.page-content  .video-embed iframe,
-article.page  div.page-content  .video-embed object,
-article.page  div.page-content  .video-embed embed {
+article.page  div.page_content  .video-embed iframe,
+article.page  div.page_content  .video-embed object,
+article.page  div.page_content  .video-embed embed {
     position: absolute;
     top: 0;
     left: 0;
